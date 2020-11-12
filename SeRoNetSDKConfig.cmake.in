@@ -5,5 +5,5 @@ find_dependency(open62541)
 find_dependency(Open62541Cpp)
 find_dependency(SmartSoft_CD_API)
 
-include ("@PACKAGE_target_install_dest_name@")
+include ("${CMAKE_CURRENT_LIST_DIR}/SeRoNetSDKTargets.cmake")
 
